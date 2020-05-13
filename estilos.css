@@ -1,0 +1,78 @@
+#paineis-sobre {
+	margin-top: 20px;
+}
+html, body {
+	height: 100%;
+}
+header {
+	background-image: url(img/ds.jpg);
+	background-size: cover;
+	background-position: top center;
+	height: 100%;
+	position: relative;
+}
+.TopCasaFina-banner {
+	    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    position: absolute; 
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+.panel-body{
+	background-color: #1E90FF;
+	color: #FFF;
+	}
+	.jumbotron{
+	background-color: #4682B4;
+	color: #FFF;
+	}
+.titulo-depoimentos {
+	background-color: 	#191970;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #FFF;
+	margin-bottom: 0;
+	font-size: 22px;
+}
+ .contato-select, .grupo-radio {
+ 	width: 50%;
+ 	display: inline-block;
+ 	vertical-align: middle;
+ }
+ .grupo-radio .radio:first-child {
+    margin-top: 0;
+
+ }
+ footer {
+ 	background-color:	#8B008B;
+ 	color: #FFF;
+ 	padding:20px;
+ 	margin-top: 10px;
+ }
+ footer address:last-child {
+ 	margin-bottom: 0;
+ }
+ @media(min-width: 768px){
+ .colunas-2 {
+    width: 50%;
+    float: left;
+	}
+	#paineis-sobre{
+	margin.top: 0;
+	}
+}
+@media(min-width: 992px) {
+	.TopCasaFina-banner {
+		left: 0;
+		transform: translate(0%,-40%);
+		width: 50%;
+}
+.TopCasaFina-bannerWrapper {
+	position: relative;
+	height: 100%;
+}
